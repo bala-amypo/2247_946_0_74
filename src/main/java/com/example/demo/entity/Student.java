@@ -7,7 +7,7 @@ public class Student{
     private String email;
     private float cgpa;
 
-    public void long getId(){
+    public long getId(){
         return id;
     }
 
@@ -15,7 +15,36 @@ public class Student{
         this.id = id;
     }
 
-    public void String getName(){
+    public String getName(){
         return name;
+    }
+
+    public void SetName(String name){
+        this.name = name;
+    }
+
+    public String getEmail(){
+        return email;
+    }
+
+    public void SetEmail(String email){
+        this.email = email;
+    }
+
+    public float getCgpa()
+    {
+        return cgpa;
+    }
+
+    public void setCgpa(float cgpa)
+    {
+        this.cgpa = cgpa;
+    }
+
+    public Student(long id, String name, String email, float cgpa) {
+        this.id = id;
+        this.studname = studname;
+        this.studemail = studemail;
+        this.cgpa = cgpa;
     }
 }
