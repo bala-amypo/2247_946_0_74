@@ -43,8 +43,12 @@ public class Student{
 
     public Student(long id, String name, String email, float cgpa) {
         this.id = id;
-        this.studname = studname;
-        this.studemail = studemail;
+        this.name = name;
+        this.email = email;
         this.cgpa = cgpa;
+    }
+
+    public Student(){
+        
     }
 }
