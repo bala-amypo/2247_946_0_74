@@ -4,15 +4,15 @@ import jakarta.persistence.*;
 
 public class Student{
     @Id
-    private Long id;
+    private int id;
     private String sname;
     private String semail;
     private float cgpa;
 
-    public Long getId(){
+    public int getId(){
         return id;
     }
-    public void setId(Long id){
+    public void setId(int id){
         this.id=id;
     }
     public String getSname(){
