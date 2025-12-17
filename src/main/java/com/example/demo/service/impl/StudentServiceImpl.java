@@ -11,7 +11,7 @@ import com.example.demo.service.StudentService;
 public class StudentServiceImpl implements StudentService {
 
     @Autowired
-    private StudentRepository repo;
+    StudentRepository repo;
 
     @Override
     // create (or) Insert data
