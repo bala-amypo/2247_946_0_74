@@ -8,5 +8,6 @@ public interface StudentService { //abstract method can be only in interface
 //abstract
     Student createData(Student stu);
     List<Student> fetchRecord();
+    Optional<Student>fetchDataById(int id);
 
 }
