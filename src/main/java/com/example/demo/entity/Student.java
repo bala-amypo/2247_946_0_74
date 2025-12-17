@@ -4,33 +4,33 @@ import jakarta.persistence.*;
 
 public class Student{
     @Id
-    private long id;
+    private Long id;
     private String sname;
     private String semail;
     private float cgpa;
 
-    public long getId(){
+    public Long getId(){
         return id;
     }
-    public void setId(long id){
+    public void setId(Long id){
         this.id=id;
     }
     public String getSname(){
         return sname;
     }
-    public void setSname(long sname){
+    public void setSname(String sname){
         this.sname=sname;
     }
     public String getSemail(){
         return semail;
     }
-    public void setSemail(long semail){
+    public void setSemail(String semail){
         this.semail=semail;
     }
     public float getCgpa(){
         return cgpa;
     }
-    public void setCgpa(long id){
+    public void setCgpa(float cgpa){
         this.cgpa=cgpa;
     }
     public Student(int id, String sname, String semail, float cgpa) {
